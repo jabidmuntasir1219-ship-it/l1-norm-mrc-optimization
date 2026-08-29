@@ -9,7 +9,7 @@
 
 ## 📌 Executive Summary
 
-Multi-Target Regressor Chains (MRC) exploit inter-target dependencies by transforming multi-target regression into a sequence of single-target problems, where preceding target predictions are appended as input features for subsequent models. However, finding the optimal sequence order traditionally relies on an **Iterative Greedy Search** evaluating Mean Squared Error (MSE), which scales quadratically with the target dimension ($O(K^2)$).
+Multi-Target Regressor Chains (MRC) exploit inter-target dependencies by transforming multi-target regression into a sequence of single-target problems, where preceding target predictions are appended as input features for subsequent models. However, finding the optimal sequence order traditionally relies on an **Iterative Greedy Search** evaluating Mean Squared Error (MSE), which scales quadratically with the target dimension O(k^2).
 
 This repository implements a **Single-Pass Pseudoinverse Weight-Norm Summation ($L_1$-Norm)** method. By leveraging Moore-Penrose Pseudo-Inverse Matrix decomposition ($X_{\text{pinv}}$) on robustly scaled features, we compute joint target dependency magnitudes in a single step ($O(1)$ complexity with respect to target chain length $K$).
 
