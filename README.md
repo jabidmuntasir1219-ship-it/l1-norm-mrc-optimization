@@ -2,6 +2,7 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22953236.svg)](https://doi.org/10.5281/zenodo.22953236)
 
 > **Algorithmic Optimization Note**: An extremely fast, single-pass $O(1)$ target sequence selection heuristic for Multi-Target Regressor Chains (MRC) in linear regression spaces. Achieves up to **725x computational speedup** over iterative Greedy MSE search while maintaining **identical predictive accuracy** (Zero Information Loss).
 
